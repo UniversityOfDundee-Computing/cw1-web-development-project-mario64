@@ -1,4 +1,4 @@
-#Mario 64
+# Mario 64
 
 This repository contains code for the project mario 64. This wiki page has comprehensive documentation and information regarding Mario 64.
 
