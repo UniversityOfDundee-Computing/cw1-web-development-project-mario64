@@ -1,0 +1,21 @@
+body{
+	background-color: #E53B3B !important; 
+}
+
+.navbar-custom {
+	background-color: #87CEEB; 
+	height: 120px;
+	font-family: "SuperMario256", system-ui;
+}
+.nav-button {
+	font-size: 300px; /* Larger text for nav items */
+	color: white !important;
+	background-color: #E53B3B; /* Mario Red for button */
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin: 0 5px;
+	transition: background-color 0.3s;
+}
+.nav-button:hover {
+	background-color: #FFD700; /* Yellow when hovering */
+}
