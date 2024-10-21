@@ -1,5 +1,5 @@
 body{
-	background-image: url('https://upload.wikimedia.org/wikipedia/en/c/c1/Super_Mario_Clouds.gif');
+	background-image: url('https://c4.wallpaperflare.com/wallpaper/57/648/903/mario-bros-nintendo-video-games-minimalism-wallpaper-preview.jpg');
 	background-size: 10px*10px;
 	background-repeat: repeat;
 	background-color: #87CEEB;
@@ -7,7 +7,7 @@ body{
 	color: #E53B3B;
 }
 .navbar-custom {
-	background-color: #E53B3B; 
+	background-color: ##FEE16B; 
 	height: 120px;
 	font-family: "SuperMario256", system-ui;
 }
@@ -24,3 +24,6 @@ body{
 	background-color: #FFD700; /* Yellow when hovering */
 }
 
+#bg-img{
+	height: 500px;
+}
