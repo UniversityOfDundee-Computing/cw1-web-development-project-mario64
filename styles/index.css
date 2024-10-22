@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'SuperMario256';
-	src: url('/styles/SuperMario256.ttf');
+	src: url("../styles/SuperMario256.ttf");
 }
 
 body{
-	background-image: url('https://c4.wallpaperflare.com/wallpaper/57/648/903/mario-bros-nintendo-video-games-minimalism-wallpaper-preview.jpg');
+	background-image: url("../https://c4.wallpaperflare.com/wallpaper/57/648/903/mario-bros-nintendo-video-games-minimalism-wallpaper-preview.jpg");
 	background-size: 10px*10px;
 	background-repeat: repeat;
 	background-color: #87CEEB;
