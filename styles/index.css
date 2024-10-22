@@ -1,11 +1,30 @@
-body{
-	background-color: #E53B3B !important; 
+@font-face {
+	font-family: 'SuperMario256';
+	src: url('/styles/SuperMario256.ttf');
 }
 
-.navbar-custom {
-	background-color: #87CEEB; 
-	height: 120px;
+body{
+	background-image: url('https://c4.wallpaperflare.com/wallpaper/57/648/903/mario-bros-nintendo-video-games-minimalism-wallpaper-preview.jpg');
+	background-size: 10px*10px;
+	background-repeat: repeat;
+	background-color: #87CEEB;
+	text-decoration-color: #FF4500;
+	color: #E53B3B;
+}
+
+h1{
 	font-family: "SuperMario256", system-ui;
+
+}
+
+.nav-item{
+	font-family: "SuperMario256", system-ui;
+}
+.navbar-custom {
+	/* background-color: #60c03a;  */
+	height: 120px;
+	font-family: "SuperMario256" ,system-ui;
+	opacity: 2.5;
 }
 .nav-button {
 	font-size: 300px; /* Larger text for nav items */
@@ -18,4 +37,8 @@ body{
 }
 .nav-button:hover {
 	background-color: #FFD700; /* Yellow when hovering */
+}
+
+#bg-img{
+	height: 500px;
 }
