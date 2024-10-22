@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'SuperMario256';
+	src: url("SuperMario256.ttf");
+}
+
+.Colored-Box{
+    margin: center;
+    
+}
+
+
+h4{
+    font-family: 'SuperMario256';
+	src: url("SuperMario256.ttf");
+}
+p {
+    font-size:10px;
+    font-family: 'SuperMario256';
+	src: url("SuperMario256.ttf");
+    
+}
