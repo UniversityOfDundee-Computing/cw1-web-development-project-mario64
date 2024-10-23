@@ -5,9 +5,9 @@
 
 body{
 		/* background:#6B88FE ; */
-		background-color: #6B88FE  !important; 
+	background-color: #76FDF6  !important; 
 	/* background-image: url("https://wallpapers-clan.com/wp-content/uploads/2024/04/super-mario-landscape-desktop-wallpaper-preview.jpg"); */
-	background-size: 10px*10px;
+	/* background-size: 10px*10px; */
 	background-repeat: repeat;
 	color: chartreuse;
 	background-size: cover;
@@ -23,11 +23,10 @@ h1{
 	color: #E53B3B;
 	font-family: "SuperMario256", system-ui;
 }
-.navbar-brand{
-	position: absolute;
-	left: 150px;
-}
 
+.navbar{
+	background-color: #E9FC94;
+}
 .nav-link.active {
     background-color: #FF0000; /* Yellow background for active state */
     color: #FFFFFF; /* White text color for contrast */
@@ -39,13 +38,13 @@ h1{
 }
 
 .navbar-custom {
-	height: 150px;
+	/* height: 150px; */
 	font-family: "SuperMario256" ,system-ui;
 
 }
 .nav-button {
-	font-size: 500px; 
-	color:#FFBD00 !important;
+	font-size: 400px; 
+	color:black !important;
 	background-color: #E53B3B; /* Mario Red for button */
 	border-radius: 5px;
 	padding: 10px 20px;
@@ -59,25 +58,27 @@ h1{
 
 .banner{
 	position: relative;
+	top: 0px;
+	bottom: 10px;
 	text-align: center;
 	background-size: contain;
-	height: 900px; 
+	/* height: 900px;  */
 	width: 100%;
 }
 
 .banner-text {
 	position: absolute;
-	top: 20%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	width: 100%;
+	width: 30%;
+	font-size: small;
 }
 
 .banner-text h1 {
-	font-size: rem;
 	/* color: #D00004; */
-	color: #FFFFFF;
+	color: black;
 }
 
 .banner-text p {
@@ -97,3 +98,34 @@ h1{
  * ---------------------------------------------- */
 
  @-webkit-keyframes kenburns-left{0%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0);-webkit-transform-origin:16% 50%;transform-origin:16% 50%}100%{-webkit-transform:scale(1.25) translate(-20px,15px);transform:scale(1.25) translate(-20px,15px);-webkit-transform-origin:left;transform-origin:left}}@keyframes kenburns-left{0%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0);-webkit-transform-origin:16% 50%;transform-origin:16% 50%}100%{-webkit-transform:scale(1.25) translate(-20px,15px);transform:scale(1.25) translate(-20px,15px);-webkit-transform-origin:left;transform-origin:left}}
+
+ .card .icon {
+	font-size: 3rem;
+	color: rgb(255, 255, 255);
+  }
+  
+  .card-text, .card-title {
+	color: gray;
+	font-family: "SuperMario256" ,system-ui;
+
+  }
+  
+  .card {
+	transition: all 0.5s;
+	background-color: #E9FC94 !important;
+  }
+  
+  .card:hover {
+	background-color: lightseagreen;
+	color: #fff !important
+  }
+  
+  .card:hover .icon,
+  .card:hover .card-text {
+	color: #fff !important;
+  }
+
+  .pt-5{
+	position: relative;
+	bottom: 15px;
+  }
