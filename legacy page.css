@@ -1,48 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
 
-/* Page Heading Styles */
-h1 {
-    margin-left: auto;
+header {
+    background-color: #c0392b;
+}
+
+.navbar-custom {
+    background-color: #c0392b;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-button {
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #e74c3c;
+}
+
+.bg-image {
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+s
+.display-1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content-container {
+    padding: 20px;
+	background-color: #76FDF6;
+    margin: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+    margin: 20px 0;
+}
+
+.image-content {
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
-    color: #050505;
-    font-family: 'SuperMario256';
-   
 }
 
-h2 {
-    color: #ffcc00; /* Gold color for subheadings */
-    margin-top: 30px;
-    font-family: 'SuperMario256';
+.image-content img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Paragraph Styles */
-p {
-    font-family: 'SuperMario256';
-    font-size: 12px;
-    line-height: 1;
-    color: #0b0b0b; /* Dark gray text color */
-    max-width:2000px; /* Limiting width for better readability */
-    margin-right:auto; /* Center alignment */
-    padding: 10px;
+.heading3 {
+    margin-top: 20px;
 }
 
-/* Image Styles */
-img {
-    max-width: 100%; /* Responsive images */
-    height: auto; /* Maintain aspect ratio */
-    display: block;
-    margin: 20px auto; /* Center images */
-}
-
-/* List Styles */
-ul {
-    list-style-type: none; /* Remove bullets */
-    padding-left: 0; /* Remove padding */
-}
-
-.n {
-    font-family: 'SuperMario256';
-    background: #72b1f1; /* Light background for list items */
-    margin: 10px 0; /* Spacing between items */
-    padding: 10px; /* Inner padding */
-    border-radius: 5px; /* Rounded corners */
+blockquote {
+    background-color: #ffeb3b;
+    border-left: 5px solid #f39c12;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    border-radius: 5px;
 }
