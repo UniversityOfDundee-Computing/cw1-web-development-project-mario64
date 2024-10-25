@@ -8,46 +8,12 @@ html body{
      background-repeat: repeat;
     background-size: cover;
 }
-.navbar{
 
-	/* background-image: url("https://wallpapers-clan.com/wp-content/uploads/2024/04/super-mario-landscape-desktop-wallpaper-preview.jpg"); */
-
-}
 h1{
 	color: #E53B3B;
 	font-family: "SuperMario256", system-ui;
 }
 
-.navbar{
-	background-color: #E9FC94;
-}
-.nav-link.active {
-    background-color: #FF0000; /* Yellow background for active state */
-    color: #FFFFFF; /* White text color for contrast */
-}
-.nav-item{
-	font-family: "SuperMario256", system-ui;
-	font-size: larger;
-
-}
-
-.navbar-custom {
-	/* height: 150px; */
-	font-family: "SuperMario256" ,system-ui;
-
-}
-.nav-button {
-	font-size: 400px; 
-	color:black !important;
-	background-color: #E53B3B; /* Mario Red for button */
-	border-radius: 5px;
-	padding: 10px 20px;
-	margin: 0 5px;
-	transition: background-color 0.3s;
-}
-.nav-button:hover {
-	background-color: #E53B3B; /* Yellow when hovering */
-}
 .image-container{ 
     position:fixed;
     width:50% ;
