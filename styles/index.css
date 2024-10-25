@@ -241,6 +241,11 @@ bottom: 15px;
 	font-size: large;
 }
 
+/* Styling for subheadings */
+.subheading{
+	font-family: "SuperMario256" ,system-ui;
+}
+
 /* Remove text decoration of links */
 a:link { 
   text-decoration: none; 
