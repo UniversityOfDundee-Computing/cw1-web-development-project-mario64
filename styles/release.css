@@ -2,72 +2,23 @@
 	font-family: 'SuperMario256';
 	src: url("SuperMario256.ttf");
 }
-
-html body{
-    background-color:#76FDF6 ;
-     background-repeat: repeat;
-    background-size: cover;
+h4{
+    font-family: 'SuperMario256';
 }
-.navbar{
-
-	/* background-image: url("https://wallpapers-clan.com/wp-content/uploads/2024/04/super-mario-landscape-desktop-wallpaper-preview.jpg"); */
-
-}
-h1{
-	color: #E53B3B;
-	font-family: "SuperMario256", system-ui;
-}
-
-.navbar{
-	background-color: #E9FC94;
-}
-.nav-link.active {
-    background-color: #FF0000; /* Yellow background for active state */
-    color: #FFFFFF; /* White text color for contrast */
-}
-.nav-item{
-	font-family: "SuperMario256", system-ui;
-	font-size: larger;
-
-}
-
-.navbar-custom {
-	/* height: 150px; */
-	font-family: "SuperMario256" ,system-ui;
-
-}
-.nav-button {
-	font-size: 400px; 
-	color:black !important;
-	background-color: #E53B3B; /* Mario Red for button */
-	border-radius: 5px;
-	padding: 10px 20px;
-	margin: 0 5px;
-	transition: background-color 0.3s;
-}
-.nav-button:hover {
-	background-color: #E53B3B; /* Yellow when hovering */
-}
-.image-container{ 
-    position:fixed;
-    width:50% ;
-    height:800vh;
+h6{
+    font-family: 'SuperMario256';
 }
 .centered-text {
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     color:black;
-    font-size: 30px;
+    font-size: 40px;
     font-family:'SuperMario256' ;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Add shadow to make text readable */
   }
-
-.Colored-Box{
-    font-size:10px;
-    font-family: 'SuperMario256';    
-}
+   
 .table-color{
     background-color:#76FDF6;
     position:center;
@@ -75,4 +26,44 @@ h1{
     margin: auto;
     padding-inline:unset;
     background-color:#76FDF6;
+}
+ /* Styling for custom buttons */
+ .button-custom {
+	font-family: "SuperMario256", system-ui;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 15px;
+}
+
+/* styling when custom button is active */
+.button-custom:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+/* padding for custom button for responsiveness */
+@media (min-width: 768px) {
+  .button-custom {
+    padding: 0.25em 0.75em;
+  }
+}
+
+/* styling for both buttons on bottom pf page */
+.button-container{
+	position: relative;
+	margin: 10px;
+	text-align: center;
+	padding: 10px;
 }
