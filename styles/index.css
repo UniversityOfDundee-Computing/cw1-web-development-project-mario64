@@ -27,7 +27,7 @@ body{
 
 /* styling for nav links when the page is active */
 .nav-link.active {
-    background-color: #C92719; /* Yellow background for active state */
+    background-color: #110402; /* Yellow background for active state */
 }
 
 /* nav bar items stylings */
